@@ -166,7 +166,6 @@ nav li a:hover{
     margin-left: 5px;
 }
 .skill-cards{
-    background-color:#f4f1f1;
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -177,6 +176,7 @@ nav li a:hover{
     width: 200px;
     padding: 20px 15px;
     background-color: white;
+    box-shadow: 6px 6px 8px #f4f1f1;
 }
 .skill-card img{
     width: 40px;
@@ -190,4 +190,34 @@ nav li a:hover{
 .skill-card p{
     font-size: 13px;
     color: #757575;
+}
+#eduJob{
+    margin: 70px 150px;
+    width: 80%;
+}
+.eduBox{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.edu-card{
+    width: 400px;
+}
+.edu-card h4{
+    color: #555050;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.edu-content h5{
+    color: #959292;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.edu-content p{
+    font-size: 12px;
+    color: #959292;
+    margin-bottom: 20px;
 }
