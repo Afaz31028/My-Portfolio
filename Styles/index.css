@@ -18,7 +18,7 @@ header{
     background-size: contain;
 }
 nav{
-    background-color: #FFF8F3;
+    background-color: #f7f3ef;
     margin-left: 15%;
     display: flex;
     justify-content: space-between;
@@ -54,7 +54,7 @@ nav li a:hover{
 }
 .btn{
     padding: 10px 20px;
-    border-radius: 7px;
+    border-radius: 6px;
     border: none;
     background-color: #FD6E0A;
     font-weight: bold;
@@ -72,7 +72,7 @@ nav li a:hover{
     align-items: center;
     padding: 20px 0 0 0;
     margin-left: 15%;
-    background: url('../images/header_bg.png'), #FFF8F3;
+    background: url('../images/header_bg.png'),#f7f3ef;
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 40%;
@@ -110,7 +110,7 @@ nav li a:hover{
     width: 80%;
     padding: 10px;
     text-align: center;
-    background-color:#FFF8F3;
+    background-color: #f7f3ef;
     padding: 130px 150px;
     border-radius: 7px;
 }
@@ -220,4 +220,38 @@ nav li a:hover{
     font-size: 12px;
     color: #959292;
     margin-bottom: 20px;
+}
+#footer-container{
+    background-color: #f7f3ef;
+}
+.footer-left{
+    width: 45%;
+    margin-top: 60px;
+}
+.footer-right{
+    width: 35%;
+    margin-top: 60px;
+    margin-right: 0px;
+}
+.footer-box{
+    margin: 50px 180px 0px 180px;
+    display: flex;
+    width: 75%;
+    padding: 70px;
+    justify-content: space-between;
+}
+.input-box{
+    width: 270px;
+    padding: 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+.icon-container{
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+.icon-container img{
+    width: 25px;
+    height: 20px;
 }
